@@ -22,7 +22,7 @@ To use the `Data.Char` basic library, we use the `import Data.Char (isAlpha, isD
 
 This function takes a `char` list (the implicit type of a string in Haskell) and maps the `isAlpha` function to each character, which returns `True` if the character is alphabetic, in both lower and upper case. Since the output of `isAlpha` is boolean, we must compose `fromEnum` to get 0's and 1's, so that we can sum each list entry. The sum is the output of the function.
 
-## Number of numeric digits in a string*
+## Number of numeric digits in a string
 
 ### numberCount
 
