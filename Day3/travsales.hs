@@ -16,6 +16,5 @@ frd::(a, b, c, d)->d
 frd (_,_,_,x)=x
 
 
+sortedListTime :: Ord a1 => [(a2, b, c, a1)] -> [(a2, b, c, a1)]
 sortedListTime n = sortBy (compare `on` frd) n
-
-sortedListDistance
